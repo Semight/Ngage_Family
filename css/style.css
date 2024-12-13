@@ -7462,6 +7462,11 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1; }
+  .navbar-brand .navbar-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
   .navbar-brand small {
     font-size: 10px;
     letter-spacing: 6px;
@@ -8380,6 +8385,9 @@ textarea.form-control {
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
+    .ftco-footer .ftco-footer-widget .site {
+      place-self: center;
+    }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
